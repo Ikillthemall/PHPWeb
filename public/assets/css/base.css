@@ -1,0 +1,107 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 27rem;
+  height: 4rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+.button--login, .button--res {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.button--login {
+  color: #fff;
+  font-size: 1.4rem;
+  background-color: #005D4F;
+}
+
+.button--login:hover {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00483d), to(#00917a)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00483d 0%, #00917a 100%) 0% 0% no-repeat padding-box;
+}
+
+.button--res {
+  font-size: 1.4rem;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.button--res a {
+  color: #3a3939;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.button--res a:hover {
+  color: #005D4F;
+}
+
+.button--forget, .button--register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.4rem;
+  background: #005D4F;
+  border: 1px solid #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.button--forget:hover, .button--register:hover {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00483d), to(#00917a)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00483d 0%, #00917a 100%) 0% 0% no-repeat padding-box;
+}
+
+.button--buy {
+  display: inline-block;
+}
+
+.button--comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: #005D4F;
+  margin-top: 1.5rem;
+}
+
+.button--comment:hover {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00483d), to(#00917a)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00483d 0%, #00917a 100%) 0% 0% no-repeat padding-box;
+}
+
+.row__margin {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=base.css.map */
